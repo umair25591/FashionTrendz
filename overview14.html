@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
+    <title>Trendz Store</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="product-page1-style.css">
+</head>
+<body>
+    <!-- nav-bar -->
+  
+    <nav class="navbar navbar-expand-lg navbar-light navbarcolor1 sticky-top">
+        <div class="container-fluid padding1">
+          <div class="navbar-brand1">
+            <h1>Trendz</h1><h2>Store</h2>
+          </div>
+          <div class="icon22">
+            
+        <div class="searchBox">
+          <input class="searchInput"type="text" name="" placeholder="Search">
+          <a href="#" class="iconlink"><ion-icon name="search-outline" class="iconsearch"></ion-icon></a>
+            
+      </div>
+            
+            <a href="#" class="iconlink" data-bs-toggle="modal" data-bs-target="#exampleModal1"><ion-icon name="cart-outline" class="icon2"></ion-icon></a>
+            <a href="#" class="iconlink"><ion-icon name="person-circle-outline" class="icon1"></ion-icon></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="ani navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link2" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link1" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link1" href="wedding.html">Wedding</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link1" href="contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+            <div class="icon11">
+              <div class="searchBox1">
+                <input class="searchInput1"type="text" name="" placeholder="Search">
+                <a href="#" class="iconlink"><ion-icon name="search-outline" class="iconsearch1"></ion-icon></a>
+                  
+            </div>
+              <a href="#" class="iconlink"  data-bs-toggle="modal" data-bs-target="#exampleModal1"><ion-icon name="cart-outline" class="icon0"></ion-icon></a>
+              <a href="#" class="iconlink"><ion-icon name="person-circle-outline" class="icon"></ion-icon></a>
+          </div>
+          </div>
+        </div>
+      </nav>
+    <!-- nav-bar -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Your Cart</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Shopping Cart</p>
+        
+        <div class="cart1 d-flex justify-content-center text-center">
+          <div class="row">
+          <div class="col-2"><img src="overview1.webp" alt=""></div>
+          <div class="col-6 title center2 cart-border1"><p>2 Piece Lawn Suit</p></div>
+          <div class="col-1 price center cart-border2">1</div>
+          <div class="col-2 cancel center1 cart-border3">Rs. 3,499</div>
+        </div>
+      </div>
+      <br>
+      <div class="cart1 d-flex justify-content-center text-center">
+        <div class="row">
+        <div class="col-2"><img src="overview2.webp" alt=""></div>
+        <div class="col-6 title center2 cart-border1"><p>Lawn Shirt-Printed</p></div>
+        <div class="col-1 price center cart-border2">2</div>
+        <div class="col-2 cancel center1 cart-border3">Rs. 1,299</div>
+      </div>
+    </div>
+    <br>
+    <div class="cart1 d-flex justify-content-center text-center">
+      <div class="row">
+      <div class="col-2"><img src="overview3.webp" alt=""></div>
+      <div class="col-6 title center2 cart-border1"><p>3 piece Lawn Shirt-Printed</p></div>
+      <div class="col-1 price center cart-border2">4</div>
+      <div class="col-2 cancel center1 cart-border3">Rs. 1,299</div>
+    </div>
+  </div>
+      <div class="modal-footer">
+        <button type="button" class="bttn1" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="bttn1">Check Out</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+    <section class="py-5">
+      <div class="container px-4 px-lg-5 my-5">
+          <div class="row gx-4 gx-lg-5 align-items-center">
+            <div class="col-md-6 border-end">
+              <div class="d-flex flex-column justify-content-center">
+                  <div class="main_image">
+                      <img src="overview14.webp" id="main_product_image" width="100%" >
+                  </div>
+                  <div class="thumbnail_images">
+                  <ul id="thumbnail">
+                      <li><img onclick="changeImage(this)" src="overview14.webp" width="70" height="70"></li>
+                      <li><img onclick="changeImage(this)" src="overview14.1.webp" width="70" height="70"></li>
+                      <li><img onclick="changeImage(this)" src="overview14.2.webp" width="70" height="70"></li>
+                      <li><img onclick="changeImage(this)" src="overview14.3.webp" width="70" height="70"></li>
+                  </ul>
+                  </div>	
+              </div>	
+          </div>
+              <div class="col-md-6">
+                  <h4 class="">Metallic Watch</h4>
+                  <div class="mb-4 mt-4">
+                      <!-- <span class="text-decoration-line-through">$45.00</span> -->
+                      <span class="price">Rs. 3,499</span>
+                  </div>
+                  <label>Size :</label>
+
+                    <select class="select1">
+                     <option value="">Choose an option</option>
+                     <option value="">Size S</option>
+                     <option value="">Size M</option>
+                     <option value="">Size L</option>
+                     <option value="">Size XL</option>
+                    </select>
+                    <br><br>
+                    <label>Color :</label>
+
+                    <select>
+                     <option value="">Choose an option</option>
+                     <option value="">Red</option>
+                     <option value="">Blue</option>
+                     <option value="">White</option>
+                     <option value="">Black</option>
+                    </select>
+
+                    <div class="counter mt-5">
+                      <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                      <input type="text" value="1">
+                      <span class="up" onClick='increaseCount(event, this)'>+</span>
+                    </div>
+
+
+                      <div class="buttons d-flex flex-row mt-5 gap-3">	
+                          <button class="bttn1">Buy Now</button>	
+                          <button class="bttn1" data-bs-toggle="modal" data-bs-target="#exampleModal">Add to Cart</button>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Trendz Store</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex">
+         <p> Product added To The Cart Successfully</p> <ion-icon name="checkbox" class="cart-check"></ion-icon>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                      </div>	
+              </div>
+          </div>
+      </div>
+  </section>
+
+         <div class="container information">
+          <button type="button" class="bttn2">Additional Information</button>
+          <button type="button" class="bttn3">Details</button>
+          <button type="button" class="bttn4">Reviews</button>
+         </div>
+         <div class="container information1">
+          <p class="additional-information">
+            Unstitched 2 Piece Embroidered Lawn Suit (Shirt+Dupatta)
+Embroidered neck panel with sequin detailing
+Geometric printed front, back and sleeves
+Floral printed border and cuff patti
+Multi-tone floral and paisley printed dupattta
+          </p>
+         </div>
+
+         <h1 class="mt-5 fw-bolder text-center">More Product</h1>
+
+
+         <section class="section-products">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-4 col-xl-3">
+  <div id="product-1" class="single-product">
+      <div class="part-1">
+      <a href="overview16.html"><img src="overview16.webp" alt="" class="img1"></a>
+          <ul>
+              <li><a href="overview16.html">Quick View</a></li>
+          </ul>
+      </div>
+      <div class="part-2 d-flex justify-content-between">
+        <a href="overview16.html">
+          <div class="title">
+          <h3 class="product-title1">Golden Watch</h3>
+          
+        </div>
+          <h4 class="product-price1">Rs. 3,499</h4>
+        </a>
+         
+      </div>
+  </div>
+</div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+  <div id="product-1" class="single-product">
+      <div class="part-1">
+      <a href="overview12.html"><img src="overview12.webp" alt="" class="img1"></a>
+          <ul>
+              <li><a href="overview12.html">Quick View</a></li>
+          </ul>
+      </div>
+      <div class="part-2 d-flex justify-content-between">
+        <a href="overview12.html">
+          <div class="title">
+          <h3 class="product-title1">Knotted Strape Tote Bag</h3>
+          
+        </div>
+          <h4 class="product-price1">Rs. 3,299</h4>
+        </a>
+         
+      </div>
+  </div>
+</div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+  <div id="product-1" class="single-product">
+      <div class="part-1">
+      <a href="overview8.html"><img src="overview8.webp" alt="" class="img1"></a>
+          <ul>
+              <li><a href="overview8.html">Quick View</a></li>
+          </ul>
+      </div>
+      <div class="part-2 d-flex justify-content-between">
+        <a href="overview8.html">
+          <div class="title">
+          <h3 class="product-title1">Cotton Kurta</h3>
+          
+        </div>
+          <h4 class="product-price1">Rs. 2,399</h4>
+        </a>
+         
+      </div>
+  </div>
+</div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+  <div id="product-1" class="single-product">
+      <div class="part-1">
+      <a href="overview4.html"><img src="overview4.webp" alt="" class="img1"></a>
+          <ul>
+              <li><a href="overview4.html">Quick View</a></li>
+          </ul>
+      </div>
+      <div class="part-2 d-flex">
+        <a href="overview4.html">
+          <div class="title">
+          <h3 class="product-title1">Texture Lawn Shirt-Printed (Pret)</h3>
+          
+        </div>
+          <h4 class="product-price1">Rs. 2,899</h4>
+        </a>
+         
+      </div>
+  </div>
+</div>
+          </div>
+          </div>
+        </section>
+
+
+
+        <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-white footer-bg-color">
+  <section class="pt-1 mt-3">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Categories
+          </h6>
+          <p>
+            <a href="#" class="brand-text1">Men</a>
+          </p>
+          <p>
+            <a href="#" class="brand-text1">Women</a>
+          </p>
+          <p>
+            <a href="#" class="brand-text1">Shoes</a>
+          </p>
+          <p>
+            <a href="#" class="brand-text1">Watches</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Help
+          </h6>
+          <p>
+            <a href="#!" class="brand-text1">Track My Order</a>
+          </p>
+          <p>
+            <a href="#!" class="brand-text1">Return</a>
+          </p>
+          <p>
+            <a href="#!" class="brand-text1">Shipping</a>
+          </p>
+          <p>
+            <a href="#!" class="brand-text1">FAQs</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-center">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Get In Touch
+          </h6>
+          <p>
+            <a href="#" class="me-4 link-secondary icon-hover">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </p>
+          <p>
+            <a href="#" class="me-4 link-secondary icon-hover">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </p>
+          <p>
+            <a href="#" class="me-4 link-secondary icon-hover">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </p>
+          <p>
+            <a href="#" class="me-4 link-secondary icon-hover">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i>Aptech North Karachi</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              umair25591@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> +923318094994</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2023 Copyright:
+    <a class="fw-bold brand-text" href="#">Trendz Store</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+</body>
+</html>
+<script>
+
+
+function increaseCount(a, b) {
+  var input = b.previousElementSibling;
+  var value = parseInt(input.value, 10);
+  value = isNaN(value) ? 0 : value;
+  value++;
+  input.value = value;
+}
+
+function decreaseCount(a, b) {
+  var input = b.nextElementSibling;
+  var value = parseInt(input.value, 10);
+  if (value > 1) {
+    value = isNaN(value) ? 0 : value;
+    value--;
+    input.value = value;
+  }
+}
+
+
+  function changeImage(element) {
+var main_prodcut_image = document.getElementById('main_product_image');
+main_prodcut_image.src = element.src;
+}
+
+$(document).ready(function(){
+  $('.bttn4').click(function(){
+    $('.additional-information').html('<div class="row justify-content-center"><div class="col-12 col-lg-1"><img src="4.webp" alt="" class="rounded-circle profile"></div><div class="col-12 col-lg-6"><p>Muhammad Umair</p><p>I recently tried out a new cloth product and I have to say, i am thoroughly impressed. The fabric is super soft and breathable, making it incredibly comfortable to wear throughout the day. Not only that, but it also holds up really well in the wash, which is always a huge plus for me.</p><div class="col-12 col-lg-3"><ion-icon name="star" class="star"></ion-icon><ion-icon name="star" class="star"></ion-icon><ion-icon name="star" class="star"></ion-icon><ion-icon name="star" class="star"></ion-icon><ion-icon name="star-half" class="star"></ion-icon></div></div></div>')
+  });
+});
+
+$(document).ready(function(){
+  $('.bttn3').click(function(){
+    $('.additional-information').html('<p>Weight = 0.79 kg</p><p> Fabric = Lawn</p><p> Materials = 60% cotton</p><p> Color = Black, Blue, Grey, Green, Red, White</p><p> Size = XL, L, M, S </p>')
+  });
+});
+
+$(document).ready(function(){
+  $('.bttn2').click(function(){
+    $('.additional-information').text('Unstitched 2 Piece Embroidered Lawn Suit (Shirt+Dupatta)Embroidered neck panel with sequin detailingGeometric printed front, back and sleevesFloral printed border and cuff pattiMulti-tone floral and paisley printed dupattta')
+  });
+});
+</script>

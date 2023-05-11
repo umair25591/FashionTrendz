@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendz Store</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="product-page1-style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- nav-bar -->
+  
+    <nav class="navbar navbar-expand-lg navbar-light navbarcolor1 sticky-top">
+        <div class="container-fluid padding1">
+          <div class="navbar-brand1">
+            <h1>Trendz</h1><h2>Store</h2>
+          </div>
+          <div class="icon22">
+            
+        <div class="searchBox">
+          <input class="searchInput"type="text" name="" placeholder="Search">
+          <a href="#" class="iconlink"><ion-icon name="search-outline" class="iconsearch"></ion-icon></a>
+            
+      </div>
+            
+            <a href="#" class="iconlink" data-bs-toggle="modal" data-bs-target="#exampleModal1"><ion-icon name="cart-outline" class="icon2"></ion-icon></a>
+            <a href="#" class="iconlink"><ion-icon name="person-circle-outline" class="icon1"></ion-icon></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="ani navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link2" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link1  nav-active" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link1" href="wedding.html">Wedding</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link1" href="contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+            <div class="icon11">
+              <div class="searchBox1">
+                <input class="searchInput1"type="text" name="" placeholder="Search">
+                <a href="#" class="iconlink"><ion-icon name="search-outline" class="iconsearch1"></ion-icon></a>
+                  
+            </div>
+              <a href="#" class="iconlink"  data-bs-toggle="modal" data-bs-target="#exampleModal1"><ion-icon name="cart-outline" class="icon0"></ion-icon></a>
+              <a href="#" class="iconlink"><ion-icon name="person-circle-outline" class="icon"></ion-icon></a>
+          </div>
+          </div>
+        </div>
+      </nav>
+    <!-- nav-bar -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Your Cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Shopping Cart</p>
+            
+            <div class="cart1 d-flex justify-content-center text-center">
+              <div class="row">
+              <div class="col-2"><img src="overview1.webp" alt=""></div>
+              <div class="col-6 title center2 cart-border1"><p>2 Piece Lawn Suit</p></div>
+              <div class="col-1 price center cart-border2">1</div>
+              <div class="col-2 cancel center1 cart-border3">Rs. 3,499</div>
+            </div>
+          </div>
+          <br>
+          <div class="cart1 d-flex justify-content-center text-center">
+            <div class="row">
+            <div class="col-2"><img src="overview2.webp" alt=""></div>
+            <div class="col-6 title center2 cart-border1"><p>Lawn Shirt-Printed</p></div>
+            <div class="col-1 price center cart-border2">2</div>
+            <div class="col-2 cancel center1 cart-border3">Rs. 1,299</div>
+          </div>
+        </div>
+        <br>
+        <div class="cart1 d-flex justify-content-center text-center">
+          <div class="row">
+          <div class="col-2"><img src="overview3.webp" alt=""></div>
+          <div class="col-6 title center2 cart-border1"><p>3 piece Lawn Shirt-Printed</p></div>
+          <div class="col-1 price center cart-border2">4</div>
+          <div class="col-2 cancel center1 cart-border3">Rs. 1,299</div>
+        </div>
+      </div>
+          <div class="modal-footer">
+            <button type="button" class="bttn1" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="bttn1">Check Out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mt-5">
+          <h1 class="wedding-heading">Top Best Selling Products </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-2 mt-3 d-flex">
+            <p>
+              <button class="bttn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Filter
+              </button>
+            </p>
+            <p style="margin-left: 10px;">
+                <button class="search-bttn" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Search
+                </button>
+              </p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body  background-color-filter">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <h2 class="filter-heading">Sort By</h2>
+                  <p class="filter-para3 mt-4">Default</p>
+                  <p class="filter-para3">Popularity</p>
+                  <p class="filter-para3">Average Rating</p>
+                  <p class="filter-para3">Newness</p>
+                  <p class="filter-para3">Prices: Low To High</p>
+                  <p class="filter-para3">Prices: High To Low</p>
+                </div>
+                <div class="col-4">
+                  <h2 class="filter-heading">Prices</h2>
+                  <p class="filter-para2 mt-4">All</p>
+                  <p class="filter-para2">$0.00 - $50.00</p>
+                  <p class="filter-para2">$50.00 - $100.00</p>
+                  <p class="filter-para2">$100.00 - $150.00</p>
+                  <p class="filter-para2">$150.00 - $200.00</p>
+                  <p class="filter-para2">$200.00+</p>
+                </div>
+                <div class="col-4">
+                  <h2 class="filter-heading">Color</h2>
+                  <p class="filter-para1 mt-4">Black</p>
+                  <p class="filter-para1">Blue</p>
+                  <p class="filter-para1">Grey</p>
+                  <p class="filter-para1">Green</p>
+                  <p class="filter-para1">Red</p>
+                  <p class="filter-para1">White</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="collapse" id="collapseExample1">
+              <div class="card card-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                        <input type="text" class="search" placeholder="Search">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <section class="section-products">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                      <div id="product-1" class="single-product">
+                          <div class="part-1">
+                          <a href="overview1.html"><img src="overview1.webp" alt="" class="img1"></a>
+                              <ul>
+                                  <li><a href="overview1.html">Quick View</a></li>
+                              </ul>
+                          </div>
+                          <div class="part-2 d-flex">
+                            <a href="overview1.html">
+                              <div class="title">
+                              <h3 class="product-title1">2 Piece Lawn Suit-Embroidered (Unstitched)</h3>
+                              
+                            </div>
+                              <h4 class="product-price1">Rs. 3,499</h4>
+                            </a>
+                             
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview5.html"><img src="overview5.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview5.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex justify-content-between">
+                          <a href="overview5.html">
+                            <div class="title">
+                            <h3 class="product-title1">Self Jacquard Kurta </h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 2,699</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview9.html"><img src="overview9.jpg" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview9.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex justify-content-between">
+                          <a href="overview9.html">
+                            <div class="title">
+                            <h3 class="product-title1">Knotted Strape Tote Bag</h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 3,299</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview13.html"><img src="overview13.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview13.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex justify-content-between">
+                          <a href="overview13.html">
+                            <div class="title">
+                            <h3 class="product-title1">Vintage Watch</h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 2,899</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview16.html"><img src="overview16.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview16.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex justify-content-between">
+                          <a href="overview16.html">
+                            <div class="title">
+                            <h3 class="product-title1">Golden Watch</h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 3,499</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview12.html"><img src="overview12.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview12.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex justify-content-between">
+                          <a href="overview12.html">
+                            <div class="title">
+                            <h3 class="product-title1">Knotted Strape Tote Bag</h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 3,299</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview8.html"><img src="overview8.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview8.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex justify-content-between">
+                          <a href="overview8.html">
+                            <div class="title">
+                            <h3 class="product-title1">Cotton Kurta</h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 2,399</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview4.html"><img src="overview4.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview4.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex">
+                          <a href="overview4.html">
+                            <div class="title">
+                            <h3 class="product-title1">Texture Lawn Shirt-Printed (Pret)</h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 2,899</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview2.html"><img src="overview2.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview2.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex">
+                          <a href="overview2.html">
+                            <div class="title">
+                            <h3 class="product-title1">Lawn Shirt-Printed (Unstitched)</h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 1,299</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview6.html"><img src="overview6.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview6.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex justify-content-between">
+                          <a href="overview6.html">
+                            <div class="title">
+                            <h3 class="product-title1">Dobby Kurta </h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 2,799</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview10.html"><img src="overview10.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview10.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex justify-content-between">
+                          <a href="overview10.html">
+                            <div class="title">
+                            <h3 class="product-title1">Crocodile Pattern Handbag</h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 2,999</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview14.html"><img src="overview14.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview14.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex justify-content-between">
+                          <a href="overview14.html">
+                            <div class="title">
+                            <h3 class="product-title1">Metallic Watch</h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 3,499</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview15.html"><img src="overview15.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview15.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex justify-content-between">
+                          <a href="overview15.html">
+                            <div class="title">
+                            <h3 class="product-title1">Leather Strap Watch</h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 2,999</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview3.html"><img src="overview3.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview3.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex">
+                          <a href="overview3.html">
+                            <div class="title">
+                            <h3 class="product-title1">3 piece Lawn Shirt-Printed (Unstitched)</h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 1,299</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview7.html"><img src="overview7.jpg" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview7.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex justify-content-between">
+                          <a href="overview7.html">
+                            <div class="title">
+                            <h3 class="product-title1">Embroidered Cotton Kurta </h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 2,899</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                        <a href="overview11.html"><img src="overview11.webp" alt="" class="img1"></a>
+                            <ul>
+                                <li><a href="overview11.html">Quick View</a></li>
+                            </ul>
+                        </div>
+                        <div class="part-2 d-flex justify-content-between">
+                          <a href="overview11.html">
+                            <div class="title">
+                            <h3 class="product-title1">Two Tone Box Handbag</h3>
+                            
+                          </div>
+                            <h4 class="product-price1">Rs. 2,499</h4>
+                          </a>
+                           
+                        </div>
+                    </div>
+                  </div>
+
+
+                  <div class="container text-center mt-5">
+                    <a href="shop.html"><button type="button" class="seemorebtn">See More</button></a>
+                  </div>
+
+
+
+                  </div>
+                </div>
+            </section>
+            <!-- Footer -->
+ <footer class="text-center text-lg-start bg-dark text-white footer-bg-color">
+  <section class="pt-1 mt-3">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Categories
+          </h6>
+          <p>
+            <a href="#" class="brand-text1">Men</a>
+          </p>
+          <p>
+            <a href="#" class="brand-text1">Women</a>
+          </p>
+          <p>
+            <a href="#" class="brand-text1">Shoes</a>
+          </p>
+          <p>
+            <a href="#" class="brand-text1">Watches</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Help
+          </h6>
+          <p>
+            <a href="#!" class="brand-text1">Track My Order</a>
+          </p>
+          <p>
+            <a href="#!" class="brand-text1">Return</a>
+          </p>
+          <p>
+            <a href="#!" class="brand-text1">Shipping</a>
+          </p>
+          <p>
+            <a href="#!" class="brand-text1">FAQs</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-center">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Get In Touch
+          </h6>
+          <p>
+            <a href="#" class="me-4 link-secondary icon-hover">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </p>
+          <p>
+            <a href="#" class="me-4 link-secondary icon-hover">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </p>
+          <p>
+            <a href="#" class="me-4 link-secondary icon-hover">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </p>
+          <p>
+            <a href="#" class="me-4 link-secondary icon-hover">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i>Aptech North Karachi</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              umair25591@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> +923318094994</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2023 Copyright:
+    <a class="fw-bold brand-text" href="#">Trendz Store</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>
+<script>
+    $(document).ready(function(){
+    $('.filter-para1').click(function(){
+      $('p').removeClass("active1");
+      $(this).addClass("active1");
+  });
+  });
+  
+  $(document).ready(function(){
+    $('.filter-para2').click(function(){
+      $('p').removeClass("active2");
+      $(this).addClass("active2");
+  });
+  });
+  
+  $(document).ready(function(){
+    $('.filter-para3').click(function(){
+      $('p').removeClass("active3");
+      $(this).addClass("active3");
+  });
+  });
+  
+  $(document).ready(function(){
+    $('.bttn').click(function(){
+      $('.bttn').toggleClass("active4");
+      // $(this).addClass("active4");
+  });
+  });
+  $(document).ready(function(){
+    $('.search-bttn').click(function(){
+      $('.search-bttn').toggleClass("active4");
+      // $(this).addClass("active4");
+  });
+  });
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="home.js"></script>
